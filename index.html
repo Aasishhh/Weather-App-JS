@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+    <div class="main">
+        <div class="card">
+            <div class="headCard"><h2 id="mainHead">Weather App Demo</h2></div>
+            
+            <div class="searchCard">
+                <input type="text" id="searchBox">
+                <label for="searchBox">
+                   <i class="fa-solid fa-magnifying-glass search"></i>
+                </label>
+            </div>
+
+            <div class="mainCard">
+                <div class="imgDiv"></div>
+                <h2 id="weatherDetail">Default</h2>
+                <div class="minmax">
+                    <div class="min"></div>
+                    <div class="avg"></div>
+                    <div class="max"></div>
+                </div>
+                <div class="tempContainer">
+                    <h2 id="max-temp" class="temp-details">0&degC</h2>
+                    <h2 id="avg-temp" class="temp-details">0&degC</h2>
+                    <h2 id="min-temp" class="temp-details">0&degC</h2>
+                </div>
+            </div>
+
+            <div class="bottomCard">
+                <div class="botLeft"></div>
+                <div class="botRight"></div>
+            </div>
+
+            <div class="lastCard">
+                <h2 class="botInfo" id="humidInfo">00%</h2>
+                <h2 class="botInfo" id="windInfo">00km/h</h2>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
